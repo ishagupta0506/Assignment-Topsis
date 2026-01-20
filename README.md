@@ -87,6 +87,26 @@ The output CSV file will contain:
 
 ---
 
+## Web Service (Flask)
+
+The web service implementation for TOPSIS is provided in the following file: topsis/app.py
+
+
+### Features
+- Upload CSV file
+- Accept weights and impacts
+- Validate inputs
+- Execute TOPSIS on the server
+- Email result CSV to user (configured locally using Gmail App Password)
+
+### How to Run
+
+```bash
+pip install flask pandas
+python topsis/app.py
+```
+---
+
 ## License
 
 This project is developed for academic purposes.
