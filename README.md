@@ -11,6 +11,41 @@ Roll Number: **102303007**
 
 ---
 
+## Introduction
+
+The **Technique for Order Preference by Similarity to Ideal Solution (TOPSIS)** is a well-established multi-criteria decision-making (MCDM) method.  
+This Python implementation allows users to easily apply the TOPSIS methodology to a decision matrix and obtain a ranked list of alternatives based on multiple criteria.
+
+The approach is widely used in engineering, management, and decision science problems where multiple conflicting criteria must be evaluated simultaneously.
+
+---
+
+## Key Concepts
+
+- **Decision Matrix**  
+  Represents the alternatives and their corresponding values for each criterion.
+
+- **Weights**  
+  Assign relative importance to each criterion based on user preference.
+
+- **Impacts**  
+  Indicate whether higher (`+`) or lower (`-`) values of a criterion are favorable.
+
+- **Normalization**  
+  Scales all criteria values to ensure comparability across different units.
+
+- **Ideal Best and Ideal Worst Solutions**  
+  Represent the best and worst possible values for each criterion.
+
+- **Similarity and Dissimilarity Measures**  
+  Compute the distance of each alternative from the ideal best and ideal worst solutions.
+
+- **TOPSIS Score**  
+  Combines similarity and dissimilarity measures to evaluate each alternative.
+
+- **Ranking**  
+  Alternatives are ranked based on their TOPSIS scores, where a higher score indicates a better alternative.
+
 ## Installation
 
 Install the package using pip:
