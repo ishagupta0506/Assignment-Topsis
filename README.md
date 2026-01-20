@@ -102,6 +102,14 @@ topsis data.csv "1,1,1,1,1" "+,+,+,+,+" output.csv
 
 ---
 
+## Input
+<img width="414" height="389" alt="image" src="https://github.com/user-attachments/assets/12e8eeb5-d355-41bf-8fcc-cb32816ea50a" />
+
+## Result
+<img width="547" height="330" alt="image" src="https://github.com/user-attachments/assets/d8716f49-eba8-4ed0-9c6b-1d9e687c3c56" />
+
+
+
 ## Weights and Impacts
 
 * Weights must be **numeric**
