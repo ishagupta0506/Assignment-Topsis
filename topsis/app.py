@@ -15,7 +15,7 @@ os.makedirs(RESULT_FOLDER, exist_ok=True)
 
 #  CHANGE THESE TWO LINES
 SENDER_EMAIL = "igupta1_be23@thapar.edu"
-APP_PASSWORD = "pfbe jpix kggl ptmn"
+APP_PASSWORD = "USE_YOUR_APP_PASSWORD_HERE"
 
 HTML_FORM = """
 <!DOCTYPE html>
@@ -136,3 +136,4 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
